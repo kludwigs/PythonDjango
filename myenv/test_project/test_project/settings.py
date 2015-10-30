@@ -29,15 +29,15 @@ ALLOWED_HOSTS = []
 
 # Your templates
 TEMPLATE_DIRS = (
+    # relative path to template files
     os.path.abspath(__file__) + "../templates/"),
     #'C:/myvirtualenv/myenv/test_project/test_project/templates',
 )
 STATICFILES_DIRS = (
+    # relative path to static files
     os.path.abspath(__file__) + "../static/"),
 	#'C:/myvirtualenv/myenv/test_project/test_project/static',
 )
-
-
 
 # Application definition
 
