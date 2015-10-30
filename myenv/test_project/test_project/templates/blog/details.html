@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+     
+{% block title %}{{thepost.title}}{% endblock %}
+     
+{% block content %}
+    <article>
+        <header>
+            <h1> {{thepost.title}} </h1>
+            <p>
+                Posted on
+                <time datetime="{{thepost.created|date:"c"}}">
+                {{thepost.created|date}}
+                </time>
+            </p>
+        </header>
+        <p class="description">
+            {{thepost.description}}
+        </p>
+        {{thepost.content|safe}}
+    </article>
+    <p></p>
+    <a href="{{"/"}}">back to the main page<a/>
+{% endblock %}
