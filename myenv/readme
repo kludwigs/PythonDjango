@@ -1,2 +1,1 @@
-Isolated virtual envioronment for running python django blog project. Project using Python 2.7.10 configured for MySQL. 
-Can be configued for default sqlite3
+Isolated virtual envioronment for running python django blog project. Project using Python 2.7.10 configured for MySQL. Can be configued for default sqlite3
